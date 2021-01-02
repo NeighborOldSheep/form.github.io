@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>MIC Survery Form</title>
+</head>
+<body>
+    <div class="container">
+        <header id="title"> 
+            <h2>MIC Leader Form</h2>
+            <p id="description">Fill out this form if you want be MIC leader!</p>    
+        </header>
+        <div class="main">
+            <form type="get">
+                <label for="name">Name</label><input type="text" id="name" name="name" placeholder="Name" required autofocus>
+                <label for="age">Age(optional)</label><input type="number" id="age" min="1" max="108" name="age" placeholder="Age">
+                <label for="email">Email</label><input type="email" id="email" name="email" placeholder="xxx@gmail.com" required>
+                <p id="description">LeaderShip</p>
+                <label>
+                    <input type="radio" value="Web master" name="leader" >Web master<br>
+                </label>    
+                <label>
+                    <input type="radio" value="Art Chair" name="leader"> Art Chair<br> 
+                </label>
+                <label>    
+                    <input type="radio" value="Communcate Chair" name="leader"> Communcate Chair<br>
+                </label>
+                <label>    
+                    <input type="radio" value="Event Chair" name="leader"> Event Chair<br>
+                </label>    
+                <p id="description">School</p>
+                <label>
+                    <input type="checkbox" id="San Gabriel" name="school" value="San Gabriel"> San Gabriel
+                </label>
+                <label>    
+                    <input type="checkbox" id="Alhambra" name="school" value="Alhambra "> Alhambra 
+                </label>
+                <label>    
+                    <input type="checkbox" id="Monterey" name="school" value="Monterey"> Monterey
+                </label>
+                <label for="suggestion">Type any suggestion here</label>
+                    <textarea id="suggestion" row="15" placeholder="You can type any suggestion right here~" cols ="25"></textarea>
+                
+                <div class="button">
+                    <button type="submit">Submit</button>
+                </div>
+        </div>
+</body>
+</html>
